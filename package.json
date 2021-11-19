@@ -1,0 +1,20 @@
+{
+  "name": "podchat-video-call",
+  "version": "1.0.50",
+  "description": "component for make or receive call in podchat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify browser-bundling.js | uglifyjs > podchat-video-call.js",
+    "build": "webpack"
+  },
+  "author": "hossein zamani",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
